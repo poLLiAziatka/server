@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>КИБЕР УТКА</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul class="body_slides">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div id='main'></div>
+    <div id="line">
+        <img src="img/logo.jpg" width="55" height="55">
+    </div>
+    <div class="btn">
+        О нас
+    </div>
+    <div class="btn">
+        Прайс
+    </div>
+    <div class="btn">
+        Работы
+    </div>
+</body>
+</html>

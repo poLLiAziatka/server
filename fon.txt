@@ -1,0 +1,75 @@
+<ul class="body_slides">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+<style>
+.body_slides{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:-2; 
+    background:#000;}
+.body_slides,
+.body_slides:after{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;}
+.body_slides:after { 
+    content: '';
+    background: transparent url(images/pattern.png) repeat top left;}
+ 
+ 
+.body_slides li{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-repeat:none;
+    opacity:0;
+    -webkit-animation: anim_slides 24s linear infinite 0s;
+    -moz-animation: anim_slides 24s linear infinite 0s;
+    -o-animation: anim_slides 24s linear infinite 0s;
+    -ms-animation: anim_slides 24s linear infinite 0s;
+    animation: anim_slides 24s linear infinite 0s;
+}
+.body_slides li:nth-child(1){
+background-image: url(https://sun9-69.userapi.com/impg/d4Vk_r-RyJgemAEh8M6FA9RSXN7oUpXsMN0hCQ/ooxirwNWMQQ.jpg?size=2560x1440&quality=96&sign=2f90d42b9bec016586baaedd6df5f5b9&type=album.jpeg) 
+}
+.body_slides li:nth-child(2){
+-webkit-animation-delay: 6.0s;
+-moz-animation-delay: 6.0s;
+background-image: url(https://sun9-54.userapi.com/impg/g6QNK5jPL7a2cWZwYSvjz6EXZKJvgCJ8ekmSKQ/Y-UUG1Phh38.jpg?size=2560x1690&quality=96&sign=225a11ac36db4fe17357ae41c04ea768&type=album.jpg) 
+}
+.body_slides li:nth-child(3){
+-webkit-animation-delay: 12.0s;
+-moz-animation-delay: 12.0s;
+background-image: url(https://sun9-36.userapi.com/impg/bfAUB4ajWQCYH1s1miPI3_XHUCbIl-Q1zVaiQQ/HL8DQUTjC4o.jpg?size=1920x1080&quality=96&sign=75f76c005e4fa5d0496e709f1ef2a719&type=album.jpg) 
+}
+.body_slides li:nth-child(4){
+-webkit-animation-delay: 18.0s;
+-moz-animation-delay: 18.0s;
+background-image: url(https://sun9-5.userapi.com/impg/9lhZcCB613v7pVeT677Vc_u_Q6xt7Jqbh-IgOA/4lsi3mfy4Kc.jpg?size=2560x1365&quality=96&sign=d51e40be6eb9552420406be88498e02e&type=album.jpeg) 
+}
+@-webkit-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+
+</style>
